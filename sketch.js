@@ -11,8 +11,8 @@ function setup()
 
 function draw()
 {
- background("black");
+ background("red");
   
-  fill("red");
-  rect(100,100,50,50);
+//  fill("red");
+ // rect(100,100,50,50);
 }
