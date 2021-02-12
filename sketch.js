@@ -1,6 +1,5 @@
 
 
-var angle = 0;
 
 function setup()
 {
@@ -14,12 +13,6 @@ function draw()
 {
  background("black");
   
-  angle = angle+0.01;
-
-  push();
-  translate(100,100);
-  rotate(angle);
   fill("red");
   rect(100,100,50,50);
-  pop();
 }
